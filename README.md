@@ -1,14 +1,16 @@
-# Stock Market Data Analysis
+# Stock Analysis Project
 
-This repository contains the Python code and data for analyzing AAPL stock prices. The project includes plotting stock trends, identifying extreme values, and discussing trends in the data.
+## Overview
+Analyze AAPL stock data to identify trends, compute statistics on extreme values, and visualize results.
+
+## Repository Structure
+- **data/**: Contains the raw dataset.
+- **scripts/**: Python scripts for analysis and plotting.
+- **tests/**: Unit tests for core analysis functions.
+- **figures/**: Generated plots.
+- **requirements.txt**: Python dependencies.
 
 ## Requirements
-
-To reproduce the figures and analysis, install the following Python libraries:
-- `pandas`
-- `matplotlib`
-- `numpy` (optional)
-
-Install the dependencies using:
+Install dependencies:
 ```bash
-pip install pandas matplotlib numpy
+pip install -r requirements.txt
